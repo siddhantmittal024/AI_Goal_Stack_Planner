@@ -1,12 +1,12 @@
-**CSD 311 ASSIGNMENT 4**
+###CSD 311 ASSIGNMENT 4
 
-**PLANNER USING GOAL STACK TECHNIQUE**
+####PLANNER USING GOAL STACK TECHNIQUE
 
-**Programming Language used:** Java
+#####Programming Language used:** Java
 
 **Abbreviations:**	
 
-**Predicates:**
+#####Predicates:
 
 ONT: On Table
 
@@ -19,7 +19,7 @@ ON: On
 AE: Arm empty
 
 
-**Operations:**
+#####Operations:
 
 S: Stack
 
@@ -29,7 +29,7 @@ PU: Pick up
 
 PD: Put down
 
-**Algorithms:** 
+#####Algorithms:
 
 We have used regular expressions for string manipulation to extract the predicates and the variables from the input strings for start and goal state. We have then made use of the stack and performed the suitable operations. We have two major classes: the Predicate class and the Planner class. The predicate class is used to keep track of predicates in start state, goal state, current state and to make changes to these predicates according to the required operations. 
 
@@ -47,10 +47,11 @@ Functions:
 **Outputs for given test configurations:** 
 
 - **Start State: ON(Y,X)&ON(W,Z)&ONT(X)&ONT(Z)&CL(Y)&CL(W)&AE**
+**![](./screenshots/1.png)**
 
-**Goal State: ON(Z,X)&ON(Y,W)&ONT(X)&ONT(W)&CL(Z)&CL(Y)&AE![](Aspose.Words.fe20a731-ec88-4922-9f85-03efc9774096.001.png)**
+**Goal State: ON(Z,X)&ON(Y,W)&ONT(X)&ONT(W)&CL(Z)&CL(Y)&AE**
 
-`                     `**![](Aspose.Words.fe20a731-ec88-4922-9f85-03efc9774096.002.png)**
+**![](./screenshots/2.png)**
 
 - **Start State: ON(Y,X)&ON(Z,W)&ONT(X)&ONT(W)&CL(Y)&CL(Z)&AE**
 
