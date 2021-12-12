@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.util.Stack;
 
 //class Predicate is being used to keep track of predicates in start state, goal state, and current state,
-//and make changes according to the required operations
+//and make changes according to the required operation
 class Predicate {
 
     //ONT is used to keep track of the blocks on the table
