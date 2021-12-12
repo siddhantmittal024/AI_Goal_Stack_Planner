@@ -6,29 +6,28 @@
 
 **Abbreviations:**	
 
-`	`**Predicates:**
-**
-`	`ONT: On Table
+**Predicates:**
 
-`	`CL: Clear 
+ONT: On Table
 
-`	`HOLD: Hold
+CL: Clear 
 
-`	`ON: On 
+HOLD: Hold
 
-`	`AE: Arm empty
+ON: On 
+
+AE: Arm empty
 
 
+**Operations:**
 
-`	`**Operations:**
+S: Stack
 
-`	`S: Stack
+US: Unstack
 
-`	`US: Unstack
+PU: Pick up
 
-`	`PU: Pick up
-
-`	`PD: Put down
+PD: Put down
 
 **Algorithms:** 
 
@@ -71,24 +70,24 @@ Functions:
 
 ![](Aspose.Words.fe20a731-ec88-4922-9f85-03efc9774096.006.png)
 
-`       `**![](Aspose.Words.fe20a731-ec88-4922-9f85-03efc9774096.007.png)**
+**![](Aspose.Words.fe20a731-ec88-4922-9f85-03efc9774096.007.png)**
 
 - **Start State: ON(E,C)&ON(D,B)&ONT(A)&ONT(C)&ONT(B)&CL(A)&CL(E)&CL(D)&AE**
 
 **Goal State: ON(A,C)&ON(D,B)&ONT(E)&ONT(C)&ONT(B)&CL(E)&CL(A)&CL(D)&AE**
 
-`          `**![](Aspose.Words.fe20a731-ec88-4922-9f85-03efc9774096.008.png)**
+**![](Aspose.Words.fe20a731-ec88-4922-9f85-03efc9774096.008.png)**
 
 ![](Aspose.Words.fe20a731-ec88-4922-9f85-03efc9774096.009.png)
 
 
 **Contribution:** 
 
-**Prarthna Pahuja** - 1910110283 - *33.33%*
+**Prarthna Pahuja** - 1910110283
 
-**Sakshi Mathur** - 1910110336 - *33.33%*
+**Sakshi Mathur** - 1910110336 
 
-**Siddhant Mittal** - 1910110388  - *33.33%*
+**Siddhant Mittal** - 1910110388
 
 
 *\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_*
