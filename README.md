@@ -1,12 +1,12 @@
-###CSD 311 ASSIGNMENT 4
+### CSD 311 ASSIGNMENT 4
 
-####PLANNER USING GOAL STACK TECHNIQUE
+#### PLANNER USING GOAL STACK TECHNIQUE
 
-#####Programming Language used:** Java
+##### Programming Language used:** Java
 
 **Abbreviations:**	
 
-#####Predicates:
+##### Predicates:
 
 ONT: On Table
 
@@ -19,7 +19,7 @@ ON: On
 AE: Arm empty
 
 
-#####Operations:
+##### Operations:
 
 S: Stack
 
@@ -29,7 +29,7 @@ PU: Pick up
 
 PD: Put down
 
-#####Algorithms:
+##### Algorithms:
 
 We have used regular expressions for string manipulation to extract the predicates and the variables from the input strings for start and goal state. We have then made use of the stack and performed the suitable operations. We have two major classes: the Predicate class and the Planner class. The predicate class is used to keep track of predicates in start state, goal state, current state and to make changes to these predicates according to the required operations. 
 
@@ -54,32 +54,26 @@ Functions:
 **![](./screenshots/2.png)**
 
 - **Start State: ON(Y,X)&ON(Z,W)&ONT(X)&ONT(W)&CL(Y)&CL(Z)&AE**
+**![](./screenshots/3.png)**
 
 **Goal State: ON(X,Z)&ON(Y,W)&ONT(Z)&ONT(W)&CL(X)&CL(Y)&AE**
 
-![](Aspose.Words.fe20a731-ec88-4922-9f85-03efc9774096.003.png)
+**![](./screenshots/4.png)**
 
-![](Aspose.Words.fe20a731-ec88-4922-9f85-03efc9774096.004.png)
-
-![](Aspose.Words.fe20a731-ec88-4922-9f85-03efc9774096.005.png)
-
-
+**![](./screenshots/5.png)**
 
 - **Start State: ON(Y,X)&ONT(X)&ONT(Z)&ONT(W)&CL(Y)&CL(Z)&CL(W)&AE**
+**![](./screenshots/6.png)**
 
 **Goal State: ON(X,Z)&ON(W,Y)&ONT(Z)&ONT(Y)&CL(X)&CL(W)&AE**
 
-![](Aspose.Words.fe20a731-ec88-4922-9f85-03efc9774096.006.png)
-
-**![](Aspose.Words.fe20a731-ec88-4922-9f85-03efc9774096.007.png)**
+**![](./screenshots/7.png)**
 
 - **Start State: ON(E,C)&ON(D,B)&ONT(A)&ONT(C)&ONT(B)&CL(A)&CL(E)&CL(D)&AE**
+**![](./screenshots/8.png)**
 
 **Goal State: ON(A,C)&ON(D,B)&ONT(E)&ONT(C)&ONT(B)&CL(E)&CL(A)&CL(D)&AE**
-
-**![](Aspose.Words.fe20a731-ec88-4922-9f85-03efc9774096.008.png)**
-
-![](Aspose.Words.fe20a731-ec88-4922-9f85-03efc9774096.009.png)
+**![](./screenshots/9.png)**
 
 
 **Contribution:** 
